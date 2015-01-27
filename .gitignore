@@ -2,3 +2,7 @@ node_modules
 Prog272-Assignments
 npm-debug.log
 .c9
+Thumbs.db
+.metadata
+.idea
+platforms
