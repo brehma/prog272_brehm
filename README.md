@@ -1,3 +1,3 @@
-# Prog 272 Repo
+# Prog 272 Repos
 
 This is Adam's repo for Prog 272. All my homework and school work will go here.
