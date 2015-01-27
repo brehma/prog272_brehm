@@ -18,7 +18,7 @@ http://www.youtube.com/user/c9ide.
 Happy coding!
 The Cloud9 IDE team
 
-# Prog 272 Repos
+# Prog 272 Repo
 
 This is Adam's repo for Prog 272. All my homework and school work will go here.
 
