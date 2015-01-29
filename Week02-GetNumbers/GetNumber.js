@@ -32,3 +32,11 @@ getNumbers = {
         return 4;
     }
 };
+
+getNumbers = {
+	
+	getFice: function () {
+		'use strict';
+		return 5;
+	}
+};
