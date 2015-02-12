@@ -9,7 +9,32 @@ exports.splits = {
         return value.split('-');
     },
     
-   splitOnCommaWithSpace01: function (value) {
+    splitOnSemicolon: function (value) {
+        'use strict';
+        return value.split(';');
+    },
+    
+    splitOnTab: function (value) {
+        'use strict';
+        return value.split('\t');
+    },
+    
+    splitOnNewLine: function (value) {
+        'use strict';
+        return value.split('\n');
+    },
+
+    splitOnComma: function (value) {
+        'use strict';
+        return value.split(',');
+    },
+    
+    reverseString: function (value) {
+        'use strict';
+        return value.split('').reverse().join('');
+    },
+    
+    splitOnCommaWithSpace01: function (value) {
         'use strict';
         var split = value.split(',');
         return split.map(function (item) {
@@ -22,14 +47,5 @@ exports.splits = {
         return value.split(',').map(function (item) {
             return item.trim();
         });
-    },
-    
-     splitsOnSemiColon: function (value) {
-        'use strict';
-        var split = value.split(';');
-        return split.map(function (item) {
-            return item.trim();
-        });
     }
-
 };

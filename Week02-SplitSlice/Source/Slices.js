@@ -27,19 +27,11 @@ exports.stringSlices = {
     
     getAllButFirstAndLastIfSame: function(value) {
         'use strict';
-        var resultFirst = value.slice(0,1);
-        var resultLast = value.slice(-1);
-        if(resultFirst === resultLast){
-            return value.slice(1, -1);
-        }
-    },
-    
-    getAllButFirstAndLastIfSame: function(value) {
-        'use strict';
-        if(value.slice(1) !== value.slice(-1)){
+        if(value.slice(0,1) !== value.slice(-1)){
             return value.slice(0);
+        } else {
+            return value.slice(1,-1);
         }
     }
 
-    
 };
